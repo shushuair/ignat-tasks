@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './App.module.css'
-import HW2 from '../s2-homeworks/hw01/HW1'
+import HW2 from '../s2-homeworks/hw02/HW2'
 
 function App() {
     return (
