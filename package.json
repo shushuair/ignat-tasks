@@ -1,6 +1,6 @@
 {
-  "name": "hws2",
-  "homepage": "https://shushuair.github.io/ignat-tasks/",
+  "name": "ignat-tasks",
+  "homepage": "https://shushuair.github.io/ignat-tasks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
