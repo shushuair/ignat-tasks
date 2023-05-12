@@ -1,35 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 .greetingForm {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .error {
+    color: #CC0000;
+    margin-top: 9px;
 }
 
 .input {
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 36px;
+    padding-left: 12px;
+    width: 372px;
+
 }
 
 .input:focus {
+    outline: none;
+    border: 1px solid #d1d1d1;
 }
 
 .errorInput {
+    border: 1px solid #CC0000;
+    border-radius: 5px;
+    height: 36px;
+    width: 372px;
+    padding-left: 12px;
 }
 
 .button {
+    background: #06c;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    height: 36px;
+    margin-left: 12px;
+    padding: 8px 24px;
+    border: none;
 }
 
 .button:focus {
+
 }
 
 .button:active {
 }
 
 .button:disabled {
+    opacity: 0.5;
 }
 
 .text {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
 }
 
 .greeting {
+    margin-top: 10px;
+    font-weight: 500;
+
 }

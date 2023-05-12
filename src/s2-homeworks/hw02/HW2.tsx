@@ -35,12 +35,18 @@ const defaultAffairs: AffairType[] = [ // need to fix any
 ]
 
 // pure helper functions
-export const filterAffairs = (affairs: AffairType[], filter: FilterType): AffairType[] => {
-    if(filter === "all") return affairs
+export const filterAffairs = (affairs: AffairType[], filter: FilterType): AffairType[] => { // need to fix any
+    if (filter === "all") return affairs
+
+    //если пришел фильтр "all"...может нам вообще не фильтровать, а вернуть все?
+    //а вот если пришло другое значение...
+    if (filter === "high") return affairs.filter(el => el.priority === "high") // need to fix
+    if (filter === "middle") return affairs.filter(el => el.priority === "middle")
+    if (filter === "low") return affairs.filter(el => el.priority === "low")
     return affairs.filter(el => el.priority === filter)
 }
-export const deleteAffair = (affairs: AffairType[], _id: number): AffairType[] => {
-    return affairs.filter(el => el._id !== _id)
+export const deleteAffair = (affairs: AffairType[], _id: number): AffairType[] => { // need to fix any
+     return affairs.filter(el=> el._id !== _id)
 }
 
 function HW2() {
@@ -48,8 +54,11 @@ function HW2() {
     const [filter, setFilter] = useState<FilterType>('all')
 
     const filteredAffairs = filterAffairs(affairs, filter)
-    const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id))
-
+    const deleteAffairCallback = (_id: number) => { // need to fix any
+        // need to fix
+        // это просто функция стрелочник-она засетает, то что сделает deleteAffair
+        setAffairs(deleteAffair(affairs,_id))
+    }
 
     return (
         <div id={'hw2'}>
@@ -67,3 +76,64 @@ function HW2() {
 }
 
 export default HW2
+
+
+// export type AffairPriorityType = 'high' | 'low' | 'middle' // need to fix any
+// export type AffairType = {
+//     _id: number // need to fix any
+//     name: string // need to fix any
+//     priority: AffairPriorityType
+// }
+// export type FilterType = 'all' | AffairPriorityType
+//
+// // constants
+// const defaultAffairs: AffairType[] = [ // need to fix any
+//     {_id: 1, name: 'React', priority: 'high'}, // студенты могут изменить содержимое name и количество элементов в массиве, ...priority не менять!
+//     {_id: 2, name: 'anime', priority: 'low'},
+//     {_id: 3, name: 'games', priority: 'low'},
+//     {_id: 4, name: 'work', priority: 'high'},
+//     {_id: 5, name: 'html & css', priority: 'middle'},
+// ]
+//
+// // pure helper functions
+// export const filterAffairs = (affairs: AffairType[], filter: FilterType): AffairType[] => {
+//     // if(filter === "all") return affairs
+//     // return affairs.filter(el => el.priority === filter)
+//     if (filter === 'high') {
+//         return affairs.filter(a => a.priority === 'high')
+//     } else if (filter === 'middle') {
+//         return affairs.filter(a => a.priority === 'middle')
+//     } else if (filter === 'low') {
+//         return affairs.filter(a => a.priority === 'low')
+//     } else {
+//         return affairs
+//     }
+// }
+// export const deleteAffair = (affairs: AffairType[], _id: number): AffairType[] => {
+//     return affairs.filter(el => el._id !== _id)
+// }
+//
+// function HW2() {
+//     const [affairs, setAffairs] = useState<AffairType[]>(defaultAffairs) // need to fix any
+//     const [filter, setFilter] = useState<FilterType>('all')
+//
+//     const filteredAffairs = filterAffairs(affairs, filter)
+//     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id))
+//
+//
+//     return (
+//         <div id={'hw2'}>
+//             <div className={s2.hwTitle}>Homework #2</div>
+//             <div className={s2.hw}>
+//                 <Affairs
+//                     data={filteredAffairs}
+//                     filter={filter}          // ого useState передаем!
+//                     setFilter={setFilter}    // ого useState передаем!
+//                     deleteAffairCallback={deleteAffairCallback}
+//                 />
+//             </div>
+//         </div>
+//     )
+// }
+//
+// export default HW2
