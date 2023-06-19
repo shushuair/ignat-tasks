@@ -17,7 +17,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
             {/*затемнение справа от открытого меню*/}
             {open && <div className={s.background} onClick={handleClose}/>}
 
-            <aside className={sidebarClass} >
+            <aside className={sidebarClass}>
                 <button className={s.close} onClick={handleClose}>
                     <img
                         src={closeIcon}
@@ -26,13 +26,12 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                     />
                 </button>
 
-                <nav id={'hw5-menu'} className={s.nav} >
+                <nav id={'hw5-menu'} className={s.nav}>
                     <NavLink
                         id={'hw5-pre-junior-link'}
                         to={PATH.PRE_JUNIOR}
                         onClick={handleClose}
-
-                        className={(param)=>  param.isActive ? s.active : ''}// делает студент
+                        className={({isActive}) => isActive ? s.active : ''} // делает студент
                     >
                         Pre-junior
                     </NavLink>
@@ -40,7 +39,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-junior-link'}
                         to={PATH.JUNIOR}
                         onClick={handleClose}
-                        className={(param)=> param.isActive ? s.active : ''} // делает студент
+                        className={({isActive}) => isActive ? s.active : ''} // делает студент
                     >
                         Junior
                     </NavLink>
@@ -48,7 +47,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-junior-plus-link'}
                         to={PATH.JUNIOR_PLUS}
                         onClick={handleClose}
-                        className={(param)=> param.isActive ? s.active : ''} // делает студент
+                        className={({isActive}) => isActive ? s.active : ''} // делает студент
                     >
                         Junior Plus
                     </NavLink>
