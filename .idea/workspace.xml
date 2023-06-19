@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="Updated the .gitignore file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/HW1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/HW1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/friend-message/FriendMessage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/friend-message/FriendMessage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/message-sender/MessageSender.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message-sender/MessageSender.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Error404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Error404.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/PreJunior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/PreJunior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +96,7 @@
       <workItem from="1685728893503" duration="9506000" />
       <workItem from="1685740064215" duration="3468000" />
       <workItem from="1685780758842" duration="10462000" />
-      <workItem from="1687104308928" duration="3071000" />
+      <workItem from="1687104308928" duration="6176000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the .gitignore file">
       <created>1687107358418</created>
@@ -94,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687107358418</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated the .gitignore file">
+      <created>1687109140156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687109140156</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
