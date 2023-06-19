@@ -20,7 +20,7 @@ function Pages() {
                 {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу /pre-junior*/}
                 <Route path={'/'} element={<Navigate to={'/pre-junior'}/>}/>
 
-                // роуты для /pre-junior, /junior, /junior-plus
+                {/*// роуты для /pre-junior, /junior, /junior-plus*/}
                 <Route path={'/pre-junior'} element={<PreJunior/>}/>
                 <Route path={'/junior'} element={<Junior/>}/>
                 <Route path={'/junior-plus'} element={<JuniorPlus/>}/>
