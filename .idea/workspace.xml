@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="HW 5 add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="HW 6 add">
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/User.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/User.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +117,7 @@
       <workItem from="1687201437102" duration="3284000" />
       <workItem from="1687206407466" duration="388000" />
       <workItem from="1687328998815" duration="311000" />
-      <workItem from="1687329340021" duration="359000" />
+      <workItem from="1687329340021" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the .gitignore file">
       <created>1687107358418</created>
@@ -183,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687206633363</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HW 6 add">
+      <created>1687329741854</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687329741854</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +195,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated the .gitignore file" />
     <MESSAGE value="HW 5 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 5 add" />
+    <MESSAGE value="HW 6 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 6 add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
