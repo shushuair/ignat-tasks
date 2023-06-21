@@ -19,10 +19,10 @@ export type UserType = {
 
 const initialPeople: UserType[] = [
     // студенты могут поменять имя/возраст/количество объектов, _id должны быть целочисленные
-    {_id: 0, name: 'Аладинов Антон', age: 16},
-    {_id: 1, name: 'Бориславов Макс', age: 23},
-    {_id: 2, name: 'Тимошин Роман', age: 19},
-    {_id: 3, name: 'Макаров Михаил', age: 54}
+    {_id: 0, name: 'Cristiano Ronaldo', age: 23},
+    {_id: 1, name: 'Messi', age: 35},
+    {_id: 2, name: 'Jack Grealish', age: 29},
+    {_id: 3, name: 'John Stones', age: 22}
 ]
 
 const HW8 = () => {
