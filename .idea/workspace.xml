@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="HW 6 add">
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
+    <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="HW 7 add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <workItem from="1687201437102" duration="3284000" />
       <workItem from="1687206407466" duration="388000" />
       <workItem from="1687328998815" duration="311000" />
-      <workItem from="1687329340021" duration="1080000" />
+      <workItem from="1687329340021" duration="1785000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the .gitignore file">
       <created>1687107358418</created>
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687329741854</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="HW 7 add">
+      <created>1687331429507</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687331429507</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +203,8 @@
     <MESSAGE value="Updated the .gitignore file" />
     <MESSAGE value="HW 5 add" />
     <MESSAGE value="HW 6 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 6 add" />
+    <MESSAGE value="HW 7 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 7 add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
