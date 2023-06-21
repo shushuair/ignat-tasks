@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="Updated the .gitignore file">
+    <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="HW 5 add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packagepp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/User.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/User.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +29,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/packagepp.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/s2-homeworks/hw02/HW2.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -34,28 +40,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/it-incubator/ignat-1/ignat-april1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "ts.external.directory.path": "C:\\it-incubator\\ignat-1\\ignat-april1\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/it-incubator/ignat-1/ignat-april1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\it-incubator\\ignat-1\\ignat-april1\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\it-incubator\ignat-1\ignat-april1" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/packagepp.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/packagepp.json" />
       <command value="run" />
@@ -78,8 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -113,6 +130,9 @@
       <workItem from="1687167799979" duration="2646000" />
       <workItem from="1687170508741" duration="5068000" />
       <workItem from="1687201437102" duration="3284000" />
+      <workItem from="1687206407466" duration="388000" />
+      <workItem from="1687328998815" duration="311000" />
+      <workItem from="1687329340021" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the .gitignore file">
       <created>1687107358418</created>
@@ -156,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687170719540</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW 5 add">
+      <created>1687206633363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687206633363</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +202,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated the .gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the .gitignore file" />
+    <MESSAGE value="HW 5 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 5 add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
