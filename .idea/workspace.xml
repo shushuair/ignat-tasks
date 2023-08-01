@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="HW 8 add">
+    <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="HW 9 add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/HW10.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/HW10.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,8 @@
       <workItem from="1687206407466" duration="388000" />
       <workItem from="1687328998815" duration="311000" />
       <workItem from="1687329340021" duration="3710000" />
-      <workItem from="1689885468524" duration="1021000" />
+      <workItem from="1689885468524" duration="1721000" />
+      <workItem from="1690928241418" duration="103000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the .gitignore file">
       <created>1687107358418</created>
@@ -199,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687336562966</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="HW 9 add">
+      <created>1689886526012</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689886526012</updated>
+    </task>
+    <task id="LOCAL-00013" summary="HW 9 add">
+      <created>1689886614769</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689886614769</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +236,8 @@
     <MESSAGE value="HW 6 add" />
     <MESSAGE value="HW 7 add" />
     <MESSAGE value="HW 8 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 8 add" />
+    <MESSAGE value="HW 9 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 9 add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
