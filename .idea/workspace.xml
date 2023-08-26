@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="HW 10 add setLoading function">
+    <list default="true" id="910f3176-0a84-4fe2-a4ca-fc5271f62a24" name="Changes" comment="add HW11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/common/c7-SuperRange/SuperRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/common/c7-SuperRange/SuperRange.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw12/HW12.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw12/HW12.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw12/bll/themeReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw12/bll/themeReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +125,7 @@
       <workItem from="1687329340021" duration="3199000" />
       <workItem from="1690972644124" duration="60000" />
       <workItem from="1690972743854" duration="7000" />
-      <workItem from="1692793910024" duration="141000" />
+      <workItem from="1692793910024" duration="970000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the .gitignore file">
       <created>1687107358418</created>
@@ -202,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690928617702</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add HW11">
+      <created>1692794154171</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692794154171</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +235,8 @@
     <MESSAGE value="HW 7 add" />
     <MESSAGE value="HW 8 add" />
     <MESSAGE value="HW 10 add setLoading function" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 10 add setLoading function" />
+    <MESSAGE value="add HW11" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
